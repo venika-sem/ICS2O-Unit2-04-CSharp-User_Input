@@ -1,3 +1,8 @@
+// Created by: Venika Sem
+// Created on: Mar 2022
+//
+// This program does calculations
+
 using System;
 
 class Program
@@ -8,12 +13,12 @@ class Program
         int baseOfTriangle;
         int heightOfTriangle;
 
-        Console.WriteLine("This program calculates the area of a triangle.");
+        Console.WriteLine("This program finds the area of a triangle.");
         Console.WriteLine("");
 
-        Console.Write("Enter the base measurement: ");
+        Console.Write("Enter the base (cm): ");
         baseOfTriangle = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Enter the height measurement: ");
+        Console.Write("Enter the height (cm): ");
         heightOfTriangle = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("");
